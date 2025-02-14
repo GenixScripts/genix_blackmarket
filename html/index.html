@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Black Market</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <div class="container">
+        <div class="store">
+            <div class="store__header">
+                <div class="store__header-logo">
+                    <h1>BLACK MARKET</h1>
+                </div>
+                <div class="header-buttons">
+                    <div class="money-display">
+                        <i class="fas fa-wallet"></i>
+                        <span id="playerMoney">0</span>
+                    </div>
+                    <button class="theme-toggle">
+                        <i class="fas fa-moon"></i>
+                    </button>
+                    <button class="close-button">
+                        <i class="fas fa-times"></i>
+                    </button>
+                </div>
+            </div>
+            <div class="category-nav">
+                <div class="store__content_header-category_list">
+                    <button class="arrow" id="prevCategory">
+                        <i class="fas fa-chevron-left"></i>
+                    </button>
+                    <ul id="categories"></ul>
+                    <button class="arrow" id="nextCategory">
+                        <i class="fas fa-chevron-right"></i>
+                    </button>
+                </div>
+            </div>
+            <div class="store__content_items" id="itemsContainer"></div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
+
